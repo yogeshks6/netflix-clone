@@ -106,11 +106,13 @@ nav button {
     font-size: 20px;
     border-radius: 4px;
 }
+
 .btn-red-sm {
     background-color: red;
     color: white;
 
 }
+
 .hero-buttons {
     display: flex;
     align-items: center;
@@ -127,4 +129,3 @@ nav button {
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
-
