@@ -88,20 +88,43 @@ nav button {
     background-color: rgb(46, 44, 44);
 }
 
-.btn{
- padding: 3px 8px;   
- font-weight: bold;
- background-color: white;
+.btn {
+    padding: 3px 23px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 }
-.btn-red{
+
+.btn-red {
     background-color: red;
     color: white;
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
 }
-.btn-red-sm{
+.btn-red-sm {
     background-color: red;
     color: white;
 
 }
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
