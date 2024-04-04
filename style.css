@@ -130,7 +130,7 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -143,25 +143,29 @@ nav button {
 .secImg {
     position: relative;
 }
-.secImg img{
+
+.secImg img {
     position: relative;
     z-index: 10;
     width: 555px;
 }
-.secImg video{
+
+.secImg video {
     position: absolute;
     top: 51px;
     right: 0;
 }
 
-section.first > div{
+section.first>div {
     display: flex;
     flex-direction: column;
 }
-section.first > div :nth-child(1){
-    font-size: 48px;
+
+section.first>div :nth-child(1) {
+    font-size: 41px;
     font-weight: bolder;
 }
-section.first > div :nth-child(2){
+
+section.first>div :nth-child(2) {
     font-size: 20px;
 }
