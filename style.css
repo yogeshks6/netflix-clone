@@ -168,4 +168,29 @@ section.first>div :nth-child(1) {
 
 section.first>div :nth-child(2) {
     font-size: 20px;
+    color: white;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+}
+.faqbox{
+    color: white;
+    transition: all .1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45,45,45);
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+.faqbox:hover{
+background-color: #414141;
 }
